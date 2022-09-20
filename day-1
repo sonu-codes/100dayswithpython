@@ -1,0 +1,10 @@
+'''Day-1 : Band name generater'''
+
+print("Welcome to the band name Generator")
+
+# Take input from user
+cityName = input("Whats\'s name of the city you grew up in:\n").capitalize()
+petName = input("What\'s your pet\'s name:\n").capitalize()
+
+#print output using f-string(format-string)
+print(f"Your band name could be \"{cityName} {petName}\"")
